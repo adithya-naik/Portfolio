@@ -12,27 +12,46 @@ header{
 
 ul{
     display: flex;
-    margin:0.4% 36%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0.4% 0% 0.4% 0%;
+    padding:0px 40px;
     justify-content: space-evenly;
+}
+.five{
+    /* width: 50%;    */
+}
+.nav-name{
+    cursor: pointer;
+    font-weight: bolder;
+    /* width: 50%; */
+    /* padding-right: 100px; */
+    /* font-family: 'Arial'; */
+    color: aqua;
 }
 .nav-items{
     position: fixed;
     top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
     left: 0px;
     width: 100vw;
     background-color: gray;
 }
 ul li{
     list-style: none;
-    padding : 2%;
+    padding : 1.5%;
     font-weight: bolder;
-    margin: 0px 10px;
+    margin: 0px 6px;
     color:#f2f4f6;
     border-bottom: 3px solid gray;
     cursor: pointer;
 }
 .nav-item:hover{ 
-    color:#f2f5f6;
+    color:#97d6ec;
     transition: all 1.2s ease 0s;
     font-weight: bolder;
     border-bottom: 3px solid #afc9dc;
@@ -68,8 +87,8 @@ a{
 
 
 #home {
-    background-image: url(images/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
-    background-position :top;
+    /* background-image: url(images/OIP.jpeg); */
+    background-position :center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #031224;
@@ -105,21 +124,29 @@ a{
     background-color: rgb(136, 118, 118);
 }
 .social img{
-    width: 26px;
+    width: 30px;
 }
 .social button{
     padding: 2px;
     margin: 9px;
     border: 2px solid  #031224;
-    border-radius: 10px;
+    border-radius: 25px;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
 }
 .social button :hover{
-    border: 3px solid rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255);
 
 }
-
+.linkedin{
+    padding: 2px 4px;
+    margin-top:3px ;
+}
+.github{
+    padding: 2px 4px;
+    margin-top:3px ;
+}
 
 
   #skills {
@@ -158,6 +185,7 @@ a{
 
   footer{
     display: flex;
+    height: 20%;
     justify-content: space-around;
     background-color: rgb(88, 83, 83);
 
@@ -165,6 +193,7 @@ a{
   footer ul a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 0px 10px;
+    padding: 5px 10px;
     font-size: small;
+    font-weight: lighter;
   }
