@@ -166,14 +166,14 @@ a{
 
 
   #skills {
-    background-color: #6E6E6E;
+    /* background-color: #6E6E6E; */
     /* background-color: #f1f3f2; */
     /* width: 100vw; */
     height: 100vh;
   }
   #projects {
-    background-color: #888888;
-    /* background-color: #73605B; */
+    /* background-color: #adaaaa; */
+    background-color: #73605B;
     /* background-color:#FFEFE7; */
     /* width: 100vw;     */
     /* background-image: url(images/OIP.jpeg);
@@ -209,7 +209,11 @@ a{
     /* background-image: url(images/bg-project.jpg); */
     /* border: 4px solid #031224; */
     /* border-radius: 14px; */
-    background-color: #bebbbb;
+    /* background-color: #f3eded; */
+    background-color: #fefef6;
+    /* box-shadow: 0px 0px 20px white; */
+    /* box-shadow: 0px 0px 30px #030224; */
+    box-shadow: 10px 10px 20px #f9f9f9;
     border-radius: 10px 100px 10px 10px;
     transition: all 0.5s ease 0s;
 }
@@ -246,7 +250,16 @@ a{
     padding: 60px 0px 40px 0px;
     font-size: 55px;
 }
-
+.proj-name{
+    /* padding: 10px; */
+    margin: 10px;
+    color: maroon;
+}
+.proj-desc{
+    /* border: 2px solid red; */
+    text-align: justify;
+    margin: 20px;
+}
 
 
 
