@@ -203,17 +203,21 @@ a {
 }
 
 .right-skills{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
     margin: 0px;
-    padding: 0px;
+    padding: 4px;
   width: 100%;
   /* width: 48%; */
   background-color: rgb(255, 255, 255);
 }
 .lang {
+  width: 60%;
   padding: 10px 0px;
   margin: 20px 0px;
   /* height: 13%; */
-  background-color: rgba(255, 218, 185, 0.351);
+  background-color: rgba(243, 211, 181, 0.351);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -335,14 +339,22 @@ a {
 }
 .middle{
   font-size: 30px;
-  margin: 20px;
+  padding: 0px;
+  margin: 10px;
   width: 100%;
+  display: flex;
   justify-content: center;
   text-align: center;
 }
-
-
-
+.pan{
+  width: 90px;
+  margin-left: 20px;
+}
+.cooking{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #projects {
   height: fit-content;
