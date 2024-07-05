@@ -10,7 +10,6 @@ header {
   display: flex;
   justify-content: center;
 }
-
 ul {
   display: flex;
   flex-direction: row;
@@ -23,13 +22,14 @@ ul {
   cursor: pointer;
   font-size: 600;
   font-weight: bolder;
-  text-shadow: 0px 0px 1px rgb(0, 0, 0);
+  text-shadow: 0px 0px 1px rgb(255, 255, 255);
   /* width: 50%; */
   /* padding-right: 100px; */
   /* font-family: 'Arial'; */
   /* color: rgb(150, 211, 213); */
   /* color: aqua; */
-  color: #000000;
+  /* color:  #8e96f2b3; */
+  color: rgb(112, 197, 225);
 }
 .nav-items {
   position: fixed;
@@ -46,9 +46,9 @@ ul {
   /* background-color: rgb(168, 154, 154); */
   backdrop-filter:blur(0px);
   /* background-color: gray; */
-  background-color: rgba(226, 211, 211, 0.4);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(15px);
+  background-color: rgba(226, 211, 211, 0.496);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(8px);
 
 }
 ul li {
@@ -58,13 +58,13 @@ ul li {
   margin: 0px 10px;
   /* color: #3A10E5; */
   /* background-color: rgb(0, 0, 0); */
-  color: #363434;
+  color: #181818;
   /* background-color: white; */
   border-bottom: 3px solid rgba(226, 211, 211, 0.0);
   cursor: pointer;
 }
 .nav-item:hover {
-  color: #030224;
+  color: #05034b;
   transition: all 0.6s ease 0s;
   font-weight: bolder;
   border-bottom: 3px solid rgb(255, 255, 255);
@@ -75,13 +75,13 @@ a {
 }
 
 #home {
-  /* background-image: url(images/proj-bg2.png); */
+  background-image: url(images/proj-bg2.png);
   /* background-image: url(images/bg-image.webp); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #030224;
+  /* background-color: #030224; */
   /* width: 100vw; */
   height: 100vh;
   display: flex;
@@ -366,7 +366,7 @@ a {
   height: fit-content;
   /* background-color: #adaaaa; */
   /* background-color: #73605B; */
-  /* background-color: #030224af; */
+  background-color: #d7d0d0bf;
 
   /* background-color:#f7986895; */
   /* width: 100vw;     */
@@ -496,7 +496,8 @@ a {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #171818;
+  background-color:  #b6;;
+  /* background-color: #fffccc; */
   
   /* background-color: rgb(60, 56, 56); */
   /* width: 100vw; */
@@ -509,8 +510,8 @@ a {
 }
 .contact-main-box {
   margin: 60px 50px; 
-  padding: 0px;
-  height: 90%;
+  padding: 30px;
+  /* height: 90%; */
   /* background-color: rgb(107, 97, 97); */
   /* background-color:#d8d4d469; */
   background-color:rgb(74, 71, 71);
@@ -545,7 +546,7 @@ a {
   margin:10px 0px;
   padding: 8px;
   color: rgb(74, 71, 71);
-  font-weight: 600;
+  font-weight: 800;
 }
 .contact-logo:hover {
   color: white;
@@ -583,6 +584,9 @@ a {
   font-weight: 900;
   /* font-size: medium; */
   color: rgb(146, 178, 178);
+}
+.in{
+  padding: 14px 0px;
 }
 footer {
   display: flex;
