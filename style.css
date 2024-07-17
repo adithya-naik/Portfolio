@@ -254,11 +254,7 @@ a {
   width: 30px;
   background-color: rgba(190, 111, 111, 0.56);
 }
-.q{
-  font-size: 10px;
-  margin: 0px;
-  color: blue;
-}
+
 .main-loader {
   margin: auto;
   justify-content: center;
