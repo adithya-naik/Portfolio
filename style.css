@@ -36,7 +36,8 @@ ul {
   /* color: aqua; */
   /* color:  #8e96f2b3; */
   /* color: rgb(15, 15, 15); */
-  color:  rgba(149, 136, 136, 0.714);
+  /* color:  rgba(149, 136, 136, 0.714); */
+  color: black;
   /* float: inline-end; */
 }
 .five{
@@ -404,7 +405,7 @@ a {
 }
 
 #projects {
-  height: fit-content;
+  /* height: fit-content; */
   /* background-color: #adaaaa; */
   /* background-color: #73605B; */
   /* background-color: #d7d0d03d; */
@@ -415,7 +416,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  /* background-size: cover; */
   /* height: 100vh; */
 }
 
@@ -424,8 +425,9 @@ a {
     grid-template-columns: 25% 25% 25% 25%; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  /* margin:10px 10px; */
+  /* justify-content: center; */
+  margin:0px 0px;
+  padding: 0px;
   /* margin: 20px 4px 20px 4px; */
 }
 .project-box {
@@ -441,6 +443,7 @@ a {
   /* background-image: url(images/); */
   color: gray;
   /* border-radius: 0px; */
+  display: flex;
 }
 .project-box:hover {
   color: black;
@@ -457,6 +460,9 @@ a {
   box-shadow: 2px 2px 1px #5d565677;
   border-radius: 10px 10px 10px 10px;
   transition: all 0.2s ease 0s;
+  .inner-links{
+    visibility :visible;
+  }
 }
 .inside-logo {
   display: flex;
@@ -476,20 +482,25 @@ a {
 }
 .inside-logo img {
   border-radius: 25px;
-  width: 45px;
+  width: 40px;
 }
 .inside-logo img:hover{
   /* width: 50px; */
-  /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.474); */
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.474);
 }
-
+.m{
+  width: 90%;
+}
 .inner-links {
-  margin: 0px;
-  padding: 0px;
+  width: 10%;
+  margin:20 0px;
+  padding: 10px;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  justify-items: center;
   justify-content: center;
   align-items: center;
+  visibility: hidden;
 }
 .heading-container {
   text-align: center;
@@ -626,7 +637,7 @@ a {
     margin:0px 0px 7px 14px;
     font-size: 15px;
     /* background-color: honeydew; */
-    color: #d4d7dc88;
+    color: #000000b0;
 }
 .contact-heading {
   margin: 0px 10px;
