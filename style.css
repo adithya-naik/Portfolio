@@ -31,7 +31,7 @@ ul {
   justify-content: space-evenly;
 }
 .hi img{
-  width:80%;
+  width:75%;
 }
 /* .nav-name {
   cursor: pointer;
@@ -116,12 +116,12 @@ a {
   /* border-bottom: 2px solid green; */
 }
 .name {
-  font-size:350%;
+  font-size: 48px;
   margin: 30px;
-  cursor: pointer;
+  /* cursor: pointer; */
   color: #a1addc;
   /* color: #6847ed; */
-  margin-bottom: 2px;
+  /* margin-bottom: 2px; */
   font-weight: bolder;
 }
 .name:hover {
@@ -133,7 +133,8 @@ a {
   font-size: 100%;
   font-weight: 900;
   display: flex;
-  margin-top: 2%;
+  margin: 30PX;
+  /* margin-top: 2%; */
   /* margin-bottom: 10px; */
   text-align: center;
   justify-content: center;
