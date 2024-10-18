@@ -11,6 +11,11 @@ header {
   display: flex;
   justify-content: center;
 }
+nav{
+  background-color: rgba(175, 158, 251, 0.651);
+  font-weight: bold ;
+  font-size: large;
+}
 ul {
   display: flex;
   flex-direction: row;
@@ -22,7 +27,7 @@ ul {
 .hi img{
   width:100%;
 }
-.nav-name {
+/* .nav-name {
   cursor: pointer;
   /* font-size: 700; */
   /* font-weight: 900px; */
@@ -39,11 +44,11 @@ ul {
   /* color:  rgba(149, 136, 136, 0.714); */
   color: black;
   /* float: inline-end; */
-}
+} */
 .five{
   float: inline-end;
 }
-.nav-items {
+/* .nav-items {
   position: fixed;
   top: 0;
   font-size: 20px;
@@ -62,7 +67,7 @@ ul {
   /* -webkit-backdrop-filter: blur(1px); */
   backdrop-filter: blur(10px);
 
-}
+} */
 ul li {
   list-style: none;
   padding: 1.8%;
@@ -76,13 +81,13 @@ ul li {
   border-bottom: 3px solid rgba(255, 255, 255, 0);
   cursor: pointer;
 }
-.nav-item:hover {
+/* .nav-item:hover {
   color: #a3a3ad;
   transition: all 0.6s ease 0s;
   font-weight: bolder;
   border-bottom: 3px solid rgb(125, 115, 115);
   border-radius: 3px;
-}
+} */
 a {
   text-decoration: none;
 }
@@ -425,14 +430,14 @@ a {
     grid-template-columns: 25% 25% 25% 25%; */
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: center;
   margin:0px 0px;
   padding: 0px;
   /* margin: 20px 4px 20px 4px; */
 }
 .project-box {
   /* border: 2px solid red; */
-  margin: 30px 50px;
+  margin: 10px 50px;
   padding: 10px;
   width: 650px;
   /* height: 90%; */
@@ -541,6 +546,7 @@ a {
   border: 0.4px solid rgb(148, 145, 145);
   border-radius: 10px;
   /* text-align :left; */
+  font-size: large;
   margin: 10px;
 }
 
@@ -610,6 +616,7 @@ a {
 }
 .contact-logo:hover {
   color: white;
+  text-decoration: none;
 }
 .contact-logo img {
   border-radius: 50px;
@@ -647,17 +654,18 @@ a {
   color: rgb(44, 46, 46);
 }
 .in{
-  padding: 14px 0px;
+  padding: 4px 0px;
 }
 .center-home{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer {
+.footer {
   display: flex;
+  align-items: center;
   justify-content: center;
-  background-color: rgba(185, 180, 180, 0.141);
+  background-color: rgba(185, 180, 180, 0.651);
 }
 footer ul a {
   /* background-color: black; */
@@ -679,7 +687,7 @@ footer ul a {
 }
 .foot {
   display: flex;
-  justify-content: space-around;
+  justify-content:center  ;
   /* flex-wrap: wrap; */
   align-items: center;
   text-align: center;
