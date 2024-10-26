@@ -12,12 +12,16 @@ header {
   justify-content: center;
 }
 nav{
-  background-color: rgba(175, 158, 251, 0.651);
+  /* background-color: rgba(175, 158, 251, 0.651); */
+  background-color: #edddd4b2;
   font-weight: bold ;
   font-size: large;
 }
 .nav-item > a{
   color:rgba(2, 2, 86, 0.462);
+  padding: 2px;
+  margin: 0.8px;
+  
 }
 .nav-item > a:hover{
   color:rgb(0, 0, 60);
@@ -48,9 +52,9 @@ ul {
   /* color:  #8e96f2b3; */
   /* color: rgb(15, 15, 15); */
   /* color:  rgba(149, 136, 136, 0.714); */
-  color: black;
+  /* color : black; */
   /* float: inline-end; */
-} */
+/* } */ 
 .five{
   float: inline-end;
 }
@@ -106,6 +110,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-color: #030224;
+  background-color: #003f88;
   /* width: 100vw; */
   height: 100vh;
   display: flex;
