@@ -6,6 +6,7 @@
   box-sizing: border-box;
   user-select: none;
   /* background-color: rgb(208, 214, 214); */
+  scroll
 }
 header {
   display: flex;
@@ -13,18 +14,31 @@ header {
 }
 nav{
   /* background-color: rgba(175, 158, 251, 0.651); */
-  background-color: #edddd4b2;
+  /* background-color: #edddd441; */
+  background-color: #030224;
+ 
   font-weight: bold ;
   font-size: large;
 }
+.container-fluid >a{
+  color: white;
+  /* background-color: red; */
+}
+.container-fluid >a:hover{
+  color: white;
+  /* background-color: red; */
+}
 .nav-item > a{
-  color:rgba(2, 2, 86, 0.462);
+  /* color:rgba(241, 149, 149, 0.462); */
+  font-weight: lighter;
   padding: 2px;
   margin: 0.8px;
+  color:wheat;
   
 }
 .nav-item > a:hover{
-  color:rgb(0, 0, 60);
+  font-weight: bold;
+  color:rgb(255, 255, 255);
 }
 ul {
   display: flex;
@@ -110,7 +124,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-color: #030224;
-  background-color: #003f88;
+  /* background-color: #003f88; */
   /* width: 100vw; */
   height: 100vh;
   display: flex;
@@ -444,15 +458,12 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin:0px 0px;
-  padding: 0px;
-  /* margin: 20px 4px 20px 4px; */
 }
 .project-box {
   /* border: 2px solid red; */
-  margin: 10px 50px;
+  margin: 0px 50px;
   padding: 10px;
-  width: 650px;
+  width: 40%;
   /* height: 90%; */
   background-color: rgb(255, 255, 255);
   /* border: 3px solid #051427; */
@@ -462,6 +473,9 @@ a {
   color: gray;
   /* border-radius: 0px; */
   display: flex;
+  .inner-links{
+    visibility :hidden;
+  }
 }
 .project-box:hover {
   color: black;
@@ -470,17 +484,16 @@ a {
   /* transform: translateX(30px); */
   /* background-image: url(images/final.jpeg); */
   /* border: 4px solid red; */
-  background-color: rgba(230, 230, 250, 0.253);
+  /* background-color: rgba(230, 230, 250, 0.253); */
   /* background-color : beige; */
   /* background-color: #c0c0b4; */
   /* box-shadow: 0px 0px 10px white; */
   /* box-shadow: 0px 0px 30px #030224; */
   box-shadow: 2px 2px 1px #5d565677;
   border-radius: 10px 10px 10px 10px;
-  transition: all 0.2s ease 0s;
-  /* .inner-links{
+  .inner-links{
     visibility :visible;
-  } */
+  }
 }
 .inside-logo {
   display: flex;
