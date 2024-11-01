@@ -6,6 +6,7 @@
   box-sizing: border-box;
   user-select: none;
   /* background-color: rgb(208, 214, 214); */
+  
 }
 header {
   display: flex;
