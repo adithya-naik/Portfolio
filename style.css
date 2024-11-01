@@ -10,6 +10,9 @@
 header {
   display: flex;
   justify-content: center;
+  
+  margin: 0px;
+  padding: 0px;
 }
 nav{
   /* background-color: rgba(175, 158, 251, 0.651); */
@@ -35,7 +38,7 @@ ul {
   justify-content: space-evenly;
 }
 .hi img{
-  width:75%;
+  width:30vh;
 }
 /* .nav-name {
   cursor: pointer;
@@ -112,7 +115,7 @@ a {
   background-color: #030224;
   background-color: #003f88;
   /* width: 100vw; */
-  height: 100vh;
+  height: 80dvh;
   display: flex;
   color: whitesmoke;
   flex-direction: column;
@@ -572,7 +575,7 @@ a {
   
   /* background-color: rgb(60, 56, 56); */
   /* width: 100vw; */
-  height: 90vh;
+  height: 80dvh;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -675,6 +678,7 @@ a {
 .footer {
   display: flex;
   align-items: center;
+  margin: 0px;
   justify-content: center;
   background-color: rgba(175, 158, 251, 0.651);
 }
